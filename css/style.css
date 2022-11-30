@@ -1225,7 +1225,10 @@ margin: 0;
   position: relative;
   overflow: hidden;
 }
-
+.swiper-loop .swiper-slide img {
+  width: 250px;
+  border-radius: 8px;
+}
 /* .hero-sec:before {
   content: "";
   background-image: url(../img/bg-coin.png);

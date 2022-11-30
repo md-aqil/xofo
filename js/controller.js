@@ -226,3 +226,22 @@ $('.bordered-title').click(function() {
 
 
   
+var swiper = new Swiper('.swiper-loop', {
+	loop: true,
+	autoplay: {
+	  delay: 1,
+	},
+
+	freeMode: true,
+	speed: 5000,
+	slidesPerView: '4',
+	spaceBetween: 50,
+	centeredSlides: true,
+  });
+
+  
+  $(".swiper-loop").hover(function () {
+	(this).swiper.autoplay.stop();
+  }, function () {
+	(this).swiper.autoplay.start();
+  });

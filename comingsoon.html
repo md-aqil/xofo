@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/starter.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    
+    <title>XOFO</title>
+    <style>
+      .fe-logo {
+    width: 254px;
+
+}
+.footer-links li a:hover {
+  color: var(--theme-color2);
+}
+
+.card.card-glow img {
+    height: 190px;
+    object-fit: cover;
+}
+
+.social_icons_list_icon a svg {
+    fill: #19aafc;
+}
+.fe-logo {
+ 
+    background: #18171F;
+    box-shadow: 5px 5px 0px rgb(0 229 255 / 50%);
+}
+.fe-logo {
+  transition: all .2s ease-in;
+}
+
+.fe-logo img {
+  opacity: .7;
+    filter: invert(1) grayscale(100%);
+}
+
+.fe-logo:hover {
+  box-shadow: 1px 1px 40px rgb(0 229 255 / 50%);
+  border: 1px solid #00E5FF;
+  transform: translate(3px ,3px);
+}
+.fe-logo:hover img {
+  opacity: 1;
+}
+
+.swiper-team .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    opacity: 1;
+}
+.swiper-team .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #19AAFC;
+    box-shadow: 0 0 5px #19aafc, 0 0 25px #19aafc, 0 0 50px #19aafc, 0 0 80px #19aafc;
+}
+.ts-icons {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.ts-icons li img {
+  filter: invert(1);
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  opacity: .6;
+}
+.ts-icons li img:hover {
+  opacity: 1;
+}
+
+.mySwiper {
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow: hidden;
+      }
+
+      .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+     
+      .swiper-button-next, .swiper-rtl .swiper-button-prev {
+          color: var(--yellow-color)
+      }
+      .swiper-button-prev, .swiper-rtl .swiper-button-next {
+          color: var(--yellow-color)
+      }
+     
+       .navigation {
+        position: absolute;
+    /* bottom: -20px; */
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    --swiper-navigation-size: 24px;
+  
+       }
+       .tm-full-row {
+           position: relative;
+       }
+   
+ .quarter-wrapper .quarter-year {
+    border-left: 1px solid var(--yellow-color);
+}
+ .quarter-wrapper .quarter-year {
+    padding: 20px 30px 0;
+    border-top: 1px solid var(--yellow-color);
+   
+    margin-bottom: 30px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-left: -30px;
+    margin-right: -65px;
+}
+
+ .quarter-wrapper .quarter-year .year {
+    font-size: 50px;
+    color: var(--yellow-color);
+    margin-bottom: 11px;
+    margin-left: 20px;
+    line-height: 1;
+ 
+}
+.quarter-text {
+    font-size: 50px;
+   color: #ffffffbd;;
+    margin-bottom: 20px;
+    font-weight: 300;
+    margin-left: -20px;
+  
+}
+.quarter-wrapper .quarter-detail:hover {
+    transform: translateY(-15px);
+    filter: drop-shadow( 0 0 5px #e6ac6454) drop-shadow( 0 0 25px #e6ac6454);
+}
+.quarter-detail ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.quarter-detail ul li {
+    font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgba(255, 255, 255, 0.70);
+}
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+.t-card p {
+  color: #ffffffbd;
+}
+.t-card h4{
+  color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 21px;
+}
+.btn-xofo {
+        color: #000;
+        background-color: var(--yellow-color);
+        border: none;
+        border-radius: 40px;
+}
+.cmg-title {
+    color: var(--theme-color);
+        text-align: center;
+        font-size: 80px !important;
+        fill: none;
+        color: black;
+        -webkit-text-fill-color: #ffffff00;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #4dfa30;
+        letter-spacing: 12px;
+        margin-top: 250px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="hero-sec">
+      <div id="scene" style="position: absolute; top:10px;left:0" >
+        <div class="layer" data-depth="0.5"><img style="width: 100%;" src="./img/coming-bg.png"></div>
+      </div>
+      
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light bg-transparent py-4">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo13.png"  alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" id="navbar-nav">
+              <li class="nav-item active">
+              <a class="nav-link" href="./comingsoon.html">Wallet</a>
+              </li>
+            
+              <li class="nav-item ">
+              <a class="nav-link page" href="./comingsoon.html">Staking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page" href="#">Multi-Chain Bridging</a>
+                </li>
+              <li class="nav-item ">
+              <a class="nav-link page" href="./comingsoon.html">XOFO Swap</a>
+              </li>
+           
+              <li class="nav-item ">
+              <a class="nav-link page" href="./comingsoon.html">Whitepaper</a>
+              </li>
+            
+               </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <a href="./comingsoon.html" class="btn btn-xofo my-2 px-5 my-sm-0" type="submit">Buy $Xofo</a>
+            </form>
+          </div>
+        </nav>
+      </div>
+      
+          
+        <!-- <img class="center-logo visible-xs" src="./img/logo.png" alt=""> -->
+      
+        <div class="container my-5" id="about">
+          <h3 class="text-uppercase cmg-title" style="font-size: 41px;">
+           Coming Soon...
+          </h3>
+          
+        </div>
+    
+    </div>
+    
+  
+
+
+    <script src="./js/jQuery.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/scroll-out.js"></script>
+
+    <script src="./js/controller.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/parallax.min.js"></script>
+    <script>
+
+	var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene)
+
+      $('.navbar-ham').click(function() {
+          $('.dropdown-menu').slideToggle()
+      });
+    
+ </script>
+</body>
+</html>
